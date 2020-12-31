@@ -55,6 +55,7 @@ SOONG_CONFIG_atlantisGlobalVars += \
     target_trust_usb_control_disable \
     uses_egl_display_array \
     uses_legacy_fd_fbdev \
+    uses_miui_camera \
     uses_nothing_camera \
     uses_oplus_camera
 
@@ -92,6 +93,7 @@ SOONG_CONFIG_atlantisGlobalVars_uses_legacy_fd_fbdev := $(TARGET_USES_LEGACY_FD_
 SOONG_CONFIG_atlantisGlobalVars_target_alternative_futex_waiters := $(TARGET_ALTERNATIVE_FUTEX_WAITERS)
 SOONG_CONFIG_atlantisGlobalVars_camera_needs_client_info := $(TARGET_CAMERA_NEEDS_CLIENT_INFO)
 SOONG_CONFIG_atlantisGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
+SOONG_CONFIG_atlantisGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
