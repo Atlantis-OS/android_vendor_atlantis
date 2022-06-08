@@ -211,6 +211,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/atlantis/overlay/no-rro
 
 PRODUCT_PACKAGES += \
+    CustomFontPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay \
     ThemedIconsOverlay
