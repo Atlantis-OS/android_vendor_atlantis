@@ -86,10 +86,7 @@ SYSTEMUI_OPTIMIZE_JAVA ?= true
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Bootanimation
-TARGET_SCREEN_WIDTH ?= 1080
-TARGET_SCREEN_HEIGHT ?= 1920
-PRODUCT_PACKAGES += \
-    bootanimation.zip
+include vendor/atlantis/config/bootanimation.mk
 
 # Build Manifest
 PRODUCT_PACKAGES += \
