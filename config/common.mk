@@ -88,6 +88,10 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 # Bootanimation
 include vendor/atlantis/config/bootanimation.mk
 
+# BtHelper
+PRODUCT_PACKAGES += \
+    BtHelper
+
 # Build Manifest
 PRODUCT_PACKAGES += \
     build-manifest
