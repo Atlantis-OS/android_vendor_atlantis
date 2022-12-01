@@ -99,6 +99,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AtlantisWallpaperStub
 
+# Call Recording
+TARGET_CALL_RECORDING_SUPPORTED ?= true
+ifneq ($(TARGET_CALL_RECORDING_SUPPORTED),false)
+PRODUCT_COPY_FILES += \
+    vendor/atlantis/config/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/et>endif
+
 # Config
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
