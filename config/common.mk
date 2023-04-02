@@ -13,6 +13,13 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
 endif
 
+# Blur Support
+ifeq ($(TARGET_SUPPORTS_BLUR),true)
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1
+endif
+
 # Disable lockscreen live wallpaper
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.wm.debug.lockscreen_live_wallpaper=false
