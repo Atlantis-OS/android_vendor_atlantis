@@ -249,6 +249,9 @@ PRODUCT_PACKAGES += \
     NetworkStackOverlay \
     ThemedIconsOverlay
 
+PRODUCT_PACKAGES += \
+    GameSpace
+
 include vendor/atlantis/config/branding.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
