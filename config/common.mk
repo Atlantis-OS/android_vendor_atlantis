@@ -135,6 +135,9 @@ ifneq ($(TARGET_CALL_RECORDING_SUPPORTED),false)
 PRODUCT_COPY_FILES += \
     vendor/atlantis/config/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/et>endif
 
+# Certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
+
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
