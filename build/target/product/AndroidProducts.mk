@@ -15,37 +15,37 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gsi_arm.mk \
-    $(LOCAL_DIR)/lineage_gsi_arm64.mk \
-    $(LOCAL_DIR)/lineage_gsi_x86.mk \
-    $(LOCAL_DIR)/lineage_gsi_x86_64.mk \
-    $(LOCAL_DIR)/lineage_gsi_car_arm64.mk \
-    $(LOCAL_DIR)/lineage_gsi_car_x86_64.mk \
-    $(LOCAL_DIR)/lineage_gsi_tv_arm.mk \
-    $(LOCAL_DIR)/lineage_gsi_tv_arm64.mk \
-    $(LOCAL_DIR)/lineage_gsi_tv_x86.mk \
-    $(LOCAL_DIR)/lineage_gsi_tv_x86_64.mk \
-    $(LOCAL_DIR)/lineage_sdk_car_arm64.mk \
-    $(LOCAL_DIR)/lineage_sdk_car_x86_64.mk \
-    $(LOCAL_DIR)/lineage_sdk_phone_x86.mk \
-    $(LOCAL_DIR)/lineage_sdk_phone_x86_64.mk \
-    $(LOCAL_DIR)/lineage_sdk_tv_arm.mk \
-    $(LOCAL_DIR)/lineage_sdk_tv_x86.mk
+    $(LOCAL_DIR)/atlantis_gsi_arm.mk \
+    $(LOCAL_DIR)/atlantis_gsi_arm64.mk \
+    $(LOCAL_DIR)/atlantis_gsi_x86.mk \
+    $(LOCAL_DIR)/atlantis_gsi_x86_64.mk \
+    $(LOCAL_DIR)/atlantis_gsi_car_arm64.mk \
+    $(LOCAL_DIR)/atlantis_gsi_car_x86_64.mk \
+    $(LOCAL_DIR)/atlantis_gsi_tv_arm.mk \
+    $(LOCAL_DIR)/atlantis_gsi_tv_arm64.mk \
+    $(LOCAL_DIR)/atlantis_gsi_tv_x86.mk \
+    $(LOCAL_DIR)/atlantis_gsi_tv_x86_64.mk \
+    $(LOCAL_DIR)/atlantis_sdk_car_arm64.mk \
+    $(LOCAL_DIR)/atlantis_sdk_car_x86_64.mk \
+    $(LOCAL_DIR)/atlantis_sdk_phone_x86.mk \
+    $(LOCAL_DIR)/atlantis_sdk_phone_x86_64.mk \
+    $(LOCAL_DIR)/atlantis_sdk_tv_arm.mk \
+    $(LOCAL_DIR)/atlantis_sdk_tv_x86.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gsi_arm-userdebug \
-    lineage_gsi_arm64-userdebug \
-    lineage_gsi_x86-userdebug \
-    lineage_gsi_x86_64-userdebug \
-    lineage_gsi_car_arm64-userdebug \
-    lineage_gsi_car_x86_64-userdebug \
-    lineage_gsi_tv_arm-userdebug \
-    lineage_gsi_tv_arm64-userdebug \
-    lineage_gsi_tv_x86-userdebug \
-    lineage_gsi_tv_x86_64-userdebug \
-    lineage_sdk_car_arm64-userdebug \
-    lineage_sdk_car_x86_64-userdebug \
-    lineage_sdk_phone_x86-userdebug \
-    lineage_sdk_phone_x86_64-userdebug \
-    lineage_sdk_tv_arm-userdebug \
-    lineage_sdk_tv_x86-userdebug
+    atlantis_gsi_arm-userdebug \
+    atlantis_gsi_arm64-userdebug \
+    atlantis_gsi_x86-userdebug \
+    atlantis_gsi_x86_64-userdebug \
+    atlantis_gsi_car_arm64-userdebug \
+    atlantis_gsi_car_x86_64-userdebug \
+    atlantis_gsi_tv_arm-userdebug \
+    atlantis_gsi_tv_arm64-userdebug \
+    atlantis_gsi_tv_x86-userdebug \
+    atlantis_gsi_tv_x86_64-userdebug \
+    atlantis_sdk_car_arm64-userdebug \
+    atlantis_sdk_car_x86_64-userdebug \
+    atlantis_sdk_phone_x86-userdebug \
+    atlantis_sdk_phone_x86_64-userdebug \
+    atlantis_sdk_tv_arm-userdebug \
+    atlantis_sdk_tv_x86-userdebug
